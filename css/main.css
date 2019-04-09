@@ -1,0 +1,129 @@
+
+header {
+    background-color: rgb(029, 029, 029);
+    width: 100%;
+    height: 11%;
+    margin: 0px;
+    
+    
+    }
+.container {
+        width: 960px;
+        margin: 0 auto;
+        padding: 0.9%;
+    }
+
+h1 {
+    color: rgb(248,255,0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 0px;
+    
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: "Angsana New", Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: left;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.bot.choices {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    align-items: center;
+}
+.top-menu {
+    text-align: right;
+    padding: 20px;
+  }
+
+
+a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    margin: 1%;
+   }
+
+.capitalize {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    }
+
+.mid-text {
+  
+    background-color: rgb(198,198,198);
+    padding: 0.1%;
+    }
+
+.box {
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.image {
+    background-image: url(../images/coworking.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:400px;
+    width:600px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+
+}
+p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.pic-text {
+    height: 400px;
+    width: 250px;
+    margin: auto;
+    background-color: rgba(255,255,255, 0.8);
+    position: absolute;
+    left: 350px;
+    }
+button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    border-bottom: 5px solid black;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    
+}
+.M { 
+    position: absolute;
+    background-color: rgb(248,255,0);
+    bottom: -5%;
+    left: 1%;
+    
+}
+footer {
+    color: black;
+    background-color:  white;
+    text-align: center;
+
+}
+#underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(248,255,0);
+    
+
+}
