@@ -1,0 +1,151 @@
+.header{
+    background-color: black;
+    color: white;
+    height: 95px;
+    width: 1536px;
+
+
+}
+
+section{
+  
+        justify-content: space-between;
+        align-items: center;
+}
+
+section ul{
+    
+/*display: inline-block;*/
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style: none;
+/*
+align-items: baseline; */   
+}
+.sub{
+    height: 300px;
+    width: 300px;
+    font-family: lucida;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.sub > button{
+    color: black;
+    background-color: darkgray;
+    border-style: none;
+}
+
+.sub > p{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.Matchmaker{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: yellow;
+    font-family: monospace;
+}
+nav ul{
+    margin-left: 95px;
+}
+nav ul li {
+    display: inline-block;
+}
+.find{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.contact{
+    margin-left: 20px;
+}
+hr{
+    height: 6px;
+    color: yellow;
+    background-color: yellow;
+    border: none;
+    margin-top: 34px;
+}
+.gray{
+    width: 1536px;
+    background-color: #E6E1E1;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+ 
+.gray > p{
+    text-align: center;
+    font-size: 25px;
+    font-family: helvetica;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.profile > button{
+    background-color: yellow;
+    color: black;
+border-style: none;
+margin-left: 88px;
+
+}
+.profile > p{
+    padding: 10px;
+    text-align: left;
+    font-size:35px; 
+}
+
+
+h3{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: left;
+}
+
+h4{
+    font-size: 25px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.background{
+    position: relative;
+    background-image: url("../images/coworking.jpg");
+    background-size: cover;
+    height:800px;
+    width: 1536px;
+    
+}
+.profile{
+  position: absolute;
+    margin-left: 900px;
+    height: 800px;
+    width: 350px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+}
+
+footer{
+    position: fixed;
+    background-color: black;
+    width: 1536px;
+    height: 5%;
+    bottom: 0;
+    color: white;
+   
+}
+footer > p{
+    font-size: 12px;
+}
+
+button{
+    padding: 12px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
