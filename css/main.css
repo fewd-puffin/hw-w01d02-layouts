@@ -1,0 +1,83 @@
+body{
+    font-family: serif;
+}
+h1{
+    color: yellow;
+}
+nav{
+    background-color: black;
+    height: 100px;
+  
+
+}
+ul{
+    list-style-type:none;
+    color: white;
+  
+}
+li{
+    display:inline;
+    margin: 50px;
+
+
+}
+h2
+{    
+display:inline;
+font: outline;
+display: flexbox;
+
+}
+.line{
+    background-color:yellow;
+    height: 5px;
+
+
+}
+section{
+    bottom:20px;
+    background-color:lightgray;
+    height: 100px;   
+    position: relative;
+    align-content: center;
+}
+    
+    h3{
+    display: flex;
+   justify-content: space-around;
+   position: relative;
+   top:40%;
+    }
+    .slider{
+        height: 500px;
+        bottom:50px;
+        position: relative;
+        align-content: center;
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../images/coworking.jpg)
+    }
+    .box{
+        width: 300px;
+        height: 400px;
+        padding: 5px;
+        border: 1px solid gray;
+        margin: 0;
+        position: relative;
+        top:10%;
+        left:70%;
+        background-color: aliceblue;
+
+
+    }
+    button{
+        width: 200px;
+        height: 50px; 
+        padding: 10px;
+ 
+    }
+    h5{
+        text-align: center;
+        position: relative;
+    }
