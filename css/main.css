@@ -1,0 +1,173 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+ }
+span#logo {
+color:#E9FF00;
+font-size:30px;
+font-weight: bold;
+padding: 10px;
+font-family:Bitter;
+}
+
+nav{
+  display: block;
+  background-color: #171717;
+  border-bottom: 5px solid #E9FF00;
+ }
+ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ }
+
+li{
+  float: right;
+
+
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: sans-serif;
+}
+.nav-item1 {
+font-weight: bolder;
+text-transform: uppercase;
+}
+
+li a:hover {
+  background-color: #111;
+  text-shadow: 1px 1px 2px #dedede;
+}
+a{
+  color: #fff;
+  font-size: 15px;
+}
+div{
+  overflow: hidden;
+}
+div.box1 {
+padding-top: 10px;
+color: #1b1b1b;
+height: 50px;
+background-color: #C6C6C6;
+font-size: 25px;
+text-align: center;
+font-family: Courgette;
+
+
+}
+#t1{
+  /*text-decoration: line-through;*/
+  color: #9C9C9C;
+}
+#t2{
+  border-bottom: 2px solid #E9FF00;
+
+  font-weight: 800;
+  margin-top: 10px;
+p
+}
+div.box2 {
+  height: 400px;
+  background-image: url("../images/coworking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+div.box3 {
+  padding:10px 20px;
+
+}
+
+  section.s1{
+  margin-left: 65%;
+  margin-top: 3%;
+  width: 240px;
+  height: 330px;
+  border: 1px solid #393939;
+  background-color:rgba(255, 255, 255, 0.75);
+  box-shadow: 3px 3px 8px grey;
+
+}
+@font-face {
+    font-family: Aku&Kamu;
+    src: url("../fonts/Aku&Kamu.otf") format("opentype");
+}
+@font-face {
+    font-family: nk57-monospace-cd-eb;
+    src: url("../fonts/nk57-monospace-cd-eb.ttf") format("opentype");
+}
+button{
+  border-radius: 5px;
+  background-color: #E9FF00;
+  box-shadow: 0px 2px  #bfd100;
+  font-size:15px;
+  font-family: nk57-monospace-cd-eb;
+   padding:10px 31px;
+  text-align: center;
+  margin-top: 20px;
+}
+h5 {
+  padding: 2px;
+  margin: 0;
+  font-weight: 100;
+  line-height: 1.6;
+  width: 180px;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+h2{
+  margin-bottom: 4px;
+  padding-bottom: 0;
+}
+
+
+section.s2{
+  width: 100%;
+  height: 300px;
+display: flex;
+justify-content:space-between;
+}
+.s2 div{
+  margin-top: 15px;
+  border-right: 1px solid #cfcccc;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.5;
+
+}
+.s2 h3{
+font-size: 25px;
+margin-bottom: 0;
+padding-bottom: 0;
+font-family:Bitter;
+}
+.s2 p{
+  max-width: 200px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.s2 button{
+background-color: #C6C6C6;
+box-shadow: 0px 2px  #9C9C9C;
+
+}
+footer{
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+}
