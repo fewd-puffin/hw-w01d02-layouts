@@ -1,0 +1,225 @@
+
+
+nav {
+    background-color: black;
+    border-bottom: 5px solid yellow;
+}
+
+.title {
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 18px 0 0 20px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.container1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+      
+}
+ 
+.div1, .div2, .div3, .div4, .div5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: baseline;
+    color: white;
+    padding: 5px;   
+    padding-top: 10px;
+    margin:5px; 
+    padding-bottom: 15px; 
+    margin-right: 12px;
+}
+
+.developers {
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     text-transform: uppercase;
+     font-weight: 900;
+     font-size: 16px;
+     margin: 0;
+}
+
+.designers {
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     text-transform: uppercase;
+     font-weight: 900;
+     font-size: 16px;
+     margin: 0;
+}
+
+.how {
+
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     font-size: 15px;
+     margin: 0;
+}
+
+.our {
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     font-size: 15px;
+     margin: 0;
+
+}
+
+.blog {
+
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     font-size: 15px;
+     margin: 0;
+
+}
+
+.sec2 {
+    background-color: rgb(187, 187, 187);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sec2 h1 {
+    margin: auto;
+    padding: 23px;
+    font-size: 23px;
+    text-align: center;
+}
+
+#cross {
+    text-decoration: line-through;
+    color: gray;
+}
+#underline {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.sec3 {
+    background-image: url(../images/coworking.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+   
+}
+
+.container2 {
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.7);
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    margin: 0;
+}
+
+.div6, .div7 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.div6 {
+    font-size: 15px;
+    margin:0;
+    padding: 20px 0px 0px 10px
+}
+
+.div7 p{
+    font-size: 22px;
+    margin-top:0 ;
+    padding: 10px 5px 0px 20px;
+}
+
+.create {
+    font-weight: 900;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: yellow;
+    text-transform: uppercase;
+    align-content: center;
+    padding: 0px;
+    margin: 0;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cont1, .cont2, .cont3 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 5px;
+    margin-top: 15px;
+    width: 200px;
+    height: 250px;
+}
+
+.div9 p, .div11 p, .cont3 p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.cont1 h1, .cont2 h1, .cont3 h1 {
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-align: left;
+
+    
+}
+
+.cont1, .cont2 {
+    border-right: 0.5px solid lightgray;
+    margin-top: 15px;
+    text-align: left;
+
+    
+}
+
+.signup, .start, .startt {
+    background-color: lightgray;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    height: 13%;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    align-content: center;
+    padding: 0px;
+    margin: 15px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 0px 5px 10px;
+
+
+}
