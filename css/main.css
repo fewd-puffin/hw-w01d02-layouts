@@ -1,0 +1,152 @@
+main {
+    margin: 0px;
+}
+.a{ 
+    background-color: black;
+}
+.startup {
+    color: yellow;
+    font-weight: normal;
+    padding: 10px, 10px, 10px, 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.help {
+    text-align: right;
+    margin-top: 0px;
+}
+.find {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.find2 {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.how {
+    color: white;
+    margin-right: 10px;
+}
+.our {
+    color: white;
+    margin-right: 10px;
+}
+.blog {
+    color: white;
+    margin-right: 10px;
+}
+.b {
+    border-top: 2px solid yellow;
+}
+.because {
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 0px;
+    border-top: 2px, solid, yellow;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+.taste {
+    color: gray;
+    text-decoration: line-through; 
+}
+.are {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.pic {
+    background-image: url(../images/coworking.jpg);
+    position: relative;
+    text-align: center;
+    color: black;
+    width: 900px;
+    height: 700px;
+    margin-left: 30px;
+    /* top: 100%; */
+    background-size: 1200px;
+    
+
+}
+.top-right {
+    
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 200px;
+    height: 280px;
+    background-color:rgba(255,255,255,0.7);
+    /* padding: 0px; */
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .p1 {
+    display: inline;
+
+} */
+.meet {
+    
+}
+.create {
+    background-color: yellow;
+    border: 0.5rem solid  yellow;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 80%;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: -50px;
+    /* border-block-start: 10px solid black; */
+
+}
+.info1 {
+    width: 220px;
+    height: 300px;
+    
+}
+.sign {
+    background-color: lightgray;
+    border: 0.5rem solid  lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.info2 {
+    width: 220px;
+    height: 300px;
+    
+    
+}
+.start1 {
+    background-color: lightgray;
+    border: 0.5rem solid  lightgray;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    /* padding: 0px; */
+}
+.info3 {
+    width: 220px;
+    height: 300px;
+    
+}
+.start2 {
+    background-color: lightgray;
+    border: 0.5rem solid  lightgray;
+    margin-right: 10px;
+    text-align: center;
+    padding: 0px;
+}
+.last {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
