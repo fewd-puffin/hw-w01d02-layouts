@@ -1,0 +1,158 @@
+
+body
+{
+    color: #f0efef;
+    font-size: 26px;
+    line-height: 1.4;
+    color: #606161;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    
+}
+section {
+    max-width: 900px;
+    width: 100%;
+}
+.begining{
+    
+    background-color: black;
+    color: white;
+    border-bottom: 7px solid yellow ;
+    
+    border-block-end-color:  yellow underline;
+
+
+}
+.info{
+text-transform: capitalize;
+margin-right:100px;
+display: flex;
+
+justify-content: flex-end;
+
+
+}
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+  
+}
+.find{
+    text-transform: uppercase;
+}
+
+.second{
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.sec-dec1{
+    font-style: italic;
+    text-decoration: line-through ;
+    color: lightgrey;
+
+}
+.sec-dec2{
+    font-style: italic;
+    text-decoration: yellow underline ;
+
+}
+.third{
+    
+height: 450px;
+    text-align: center;
+    display: block;
+    background-image: url(../images/coworking.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+
+button{
+    
+    text-transform: uppercase;
+    
+
+}
+
+.inner{
+    height: 350px;
+    width: 250px;
+    font-size: 15px;
+    background-color:rgba(201, 199, 119, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    padding: 10px 30px;
+    margin-left:500px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+}
+.inner> p {
+    text-align: left;
+    
+}
+.footer{
+    
+    background-color: black;
+    color: white;
+    
+
+}
+.last{
+    
+    font-size: 20px;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.frames{
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.buttonplace{
+    
+    align-self: center;
+    
+}
+button {
+    width: 200px;
+    padding: 10px 0;
+    border: 1px solid #aaa;
+    font-size: .8em;
+    font-weight: 600;
+    color: #555;
+    display: block;
+    text-align: center;
+
+  }
