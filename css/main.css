@@ -1,0 +1,132 @@
+* {
+   -moz-box-sizing: border-box; /* Firexfox */
+   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+   box-sizing: border-box; /* IE */
+}
+body {
+   color: #000;
+   font-size: 20px;
+   line-height: 1.5;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin: auto;
+}
+header {
+	background-color: black;
+	overflow: hidden;
+  	border-bottom: 4px solid yellow;
+	}
+
+footer {
+	background-color: black;
+    padding: 10px;
+    color: white;
+}
+h1 {
+   color: yellow;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+div {
+  width: 100%;
+  margin: 0 0 3em 0;
+  padding: 0;
+  }
+
+div ul {
+  color: white;
+  font-weight: 800;
+  list-style-type: none;
+  float: right;
+  
+}
+
+div li {
+  float: left;
+  padding: 10px;
+  font-family: 'Source Sans Pro', serif;
+}
+.firstcontainer {
+	background-color: lightgray;
+  	font-style: italic;
+   font-size: 25px;
+   font-family: 'Source Sans Pro', serif;
+  	text-align: center;
+  	font-weight: bold;
+  	padding-top: 5px;
+  	padding-bottom: 10px;
+  	height: 75x;
+}
+#taste {
+   color: darkgrey;
+   text-decoration: line-through;
+ }
+ 
+ #are {
+   border-bottom: 2px solid yellow;
+ }
+
+ .secondcontainer {
+   background-image: url("C:\Users\Maram\code\fewd\lessons\hw-w01d02-layouts\images\coworking.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+ }
+ 
+.ad {
+   float: right;
+   width: 25%;
+   background-color: rgba(255, 255, 255, 0.7);
+   padding: 30px;
+   margin: 50px;
+ } 
+ 
+ .about p {
+    margin: 0 0 1.5em 0;
+    border: 3px solid;
+
+ }
+ 
+ .yellow {
+   background: yellow;
+   font-size: 15px;
+   position: static;
+  border: 3px solid;
+ }
+ 
+ h3 {
+   margin-bottom: 5px;
+   text-align: left;
+ }
+ 
+ .button {
+   padding: 10px;
+   margin-top: 20px;
+   font-size: 25px;
+   font-weight: 800;
+   text-align: center;
+   letter-spacing: 1px;
+ }
+
+ .container-3 {
+	background-color: #fff;
+	margin: 20px 0;
+}
+
+.div1, .div2, .div3 {
+  width: 33%;
+  display: inline-block;
+  padding: 0 80px 20px;
+  border-left: 1px lightgrey solid;
+	border-right: 1px lightgrey solid;
+}
+.grey {
+	background-color: lightgrey;
+}
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
