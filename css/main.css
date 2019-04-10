@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    
+}
+.logo{
+    color: yellow;
+    background: black;} 
+} 
+h1{
+    
+    color: rgb(251, 255, 5);
+   
+}
+.list{
+    background: black;}
+li{
+    color:white;
+    list-style: none;
+    display: inline;
+    text-align: left;
+    text-transform: uppercase;
+}
+section{
+    background-image: url("../images/coworking.jpg");
+    height: 500px;
+    width: 700px;
+
+}
+.div2{
+    border: solid;
+    background-color: gray;
+    opacity: 0.8;
+}
+.Because{
+    color:black;
+    background: lightgray;
+}
+button{
+    border-radius: .05in;
+    border-bottom: darkgray;
+    font-weight: 900 ;
+    text-transform: uppercase;
+    height: 45px;
+    width: 200px;
+    background-color: lightgray;
+}
+aside{
+    display: flex;
+
+}
+.div3{
+    flex-direction: row;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
