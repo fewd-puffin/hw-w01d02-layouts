@@ -1,0 +1,29 @@
+.container {
+    width: 1299px;
+    margin: 0 auto;
+  }
+.textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    background:rgba(0, 0, 0, 0.5);
+    padding: 40px;
+  }
+  .background-img{
+    background-image: url("../images/coworking.jpg");
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+   /* display: inline-block;*/
+  }
+p,li { 
+      display: inline-block; 
+      padding: 40px;
+    }  
