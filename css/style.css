@@ -1,0 +1,153 @@
+hr{
+    border-bottom: 3px solid yellow;
+    margin-top: -800px;
+    margin-bottom: 6%;
+}
+
+
+.reason h2{
+    color: black;
+    background-color: rgb(184, 181, 181);
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -6%;
+    margin-bottom: -1%;}
+    
+
+
+.Background{
+    
+    background-repeat: no-repeat;
+    background-image: url("../images/s.jpg");
+    height: 800px;
+    background-size: cover;
+
+}
+    .b1{
+    
+        margin-right: 10px;
+        height: 50px;
+        width: 150px;
+        background-color: rgb(160, 159, 159);
+        color: black;
+        font-weight: bold;
+        
+    }
+    
+    .b2{
+        margin-right: 650px;
+        margin-top: 200px;
+        height: 50px;
+        width: 150px;
+        background-color: rgb(160, 159, 159);
+        color: black;
+        font-weight: bold;
+    }
+    .b3{
+    
+        margin-right: 600px;
+        margin-top: 250x;
+        height: 50px;
+        width: 150px;
+        background-color: rgb(160, 159, 159);
+        color: black;
+        font-weight: bold;
+    }
+    
+    
+
+    
+ .footer{
+        background-color: black;
+        color: white;
+        height: 50px;
+        margin-top: 250px;
+        
+    }
+ 
+
+h1{
+    color: yellow;
+    text-align: left;
+    
+
+}
+.link{
+    background-color: black;
+    height: 100px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 0px;
+    margin-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+a{
+    margin-left: 170px;
+    color: white;
+    text-decoration: none;
+    font-family: italic;
+    
+}
+
+
+
+span{
+    color: gainsboro;
+   text-decoration: line-through;
+    
+}
+
+u{
+    text-decoration: none;
+    border-bottom: 3px solid yellow;
+
+    
+}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin-left: 850px;
+    margin-top: 50px;
+    padding: 20px;
+    line-height: 26pt;
+    opacity: 0.5;
+    font-weight: bold;
+
+}
+
+.button{
+    background-color: yellow;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:  50px;
+    font-weight: bold;
+    
+    
+}
+
+
+.table{
+   flex-direction: row;
+   display: flex;
+   border: black;
+   height: 300px;
+   width: -60px;
+  
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
